@@ -9,13 +9,13 @@
   justify-content: space-between;
   background-color: #EF233C;
   padding: 10px 20px;
-  color: #EDF2F4;
+  color: #d0f5ff;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
 
 .navbar a {
-  color: #EDF2F4;
+  color: #d0f5ff;
   text-decoration: none;
   font-size: 16px;
 }
@@ -47,7 +47,7 @@
 .inputcontainer
 {
   display: flex;
-  background-color: #EDF2F4;
+  background-color: #d0f5ff;
   color:#EF233C;
   height: 30px;
   gap : 3px;
@@ -70,7 +70,7 @@
   height: 30px;
   
   padding: 3px;
-  background-color:#EDF2F4;
+  background-color:#d0f5ff;
   border-radius: 50px;
   border: none;
   
@@ -80,7 +80,7 @@
 
 .searchbar button
 {
-  background-color: #EDF2F4;
+  background-color: #d0f5ff;
   color: #EF233C;
   padding: 3px 4px;
   border-radius: 50px;

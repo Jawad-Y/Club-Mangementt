@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body
+{
+    background-color: #d0f5ff;
+}
+  .clubschedule
+  {
+  padding-top: 80px;
+  padding-left: 30px;
+  font-size: 40px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #535f7d;
+  display: flex;
+  gap: 500px;
+  }
+
+
+.sch-container
+{
+    display:flex;
+    border:0px solid black;
+    width: 950px;
+    height:600px;
+    margin-left: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #b2fcfd;
+    border-radius:22px;
+}
+
+.card
+{
+    width: 200px;
+    height: 260px;
+    margin:auto;
+
+    border: 00px solid black;
+    background-color: #75b2df;
+    border-radius:22px;
+    display: flex;
+    
+}
+
+.day
+{
+    display:flex;
+    width: 174px;
+    height: 30px;
+    
+    background-color:#b2fcfd ;
+    border-radius:22px;
+    margin : 13px;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
