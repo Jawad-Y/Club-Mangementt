@@ -9,11 +9,13 @@
  <link href=".\home.css" rel="stylesheet">  
     
  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
- 
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
+<div class="header">
 <nav class="navbar">
   
     <!--LOGO  -->
@@ -27,7 +29,7 @@
 <div class="searchbar">
     <div class="inputcontainer">
         <button><i class="fas fa-search"></i></button>
-        <input type="text" placeholder="Search">
+        <input type="event" placeholder="Search">
     </div>
 </div>
 
@@ -50,22 +52,31 @@
 </div>
 
 </nav>
+</div>
 
-<div class="clubschedule"><p>Calendar:</p></div>
+<div class="emptyspace"> <p></p></div>
 
+<div class="clubschedule"><div class="scheduale"><p>Schedule</p></div></div>
+    
+
+
+<div class="container">
 
 <div class="sch-container">
+    
+
     <div class="card">
       <div class="day">
         <p>Monday</p>
       </div>
- 
+      <div class="event"></div>
     </div>
   
     <div class="card">
       <div class="day">
         <p>Tuesday</p>
       </div>
+      <div class="event"></div>
 
     </div>
   
@@ -73,6 +84,7 @@
       <div class="day">
         <p>Wednesday</p>
       </div>
+      <div class="event"></div>
 
     </div>
   
@@ -80,6 +92,7 @@
       <div class="day">
         <p>Thursday</p>
       </div>
+      <div class="event"></div>
 
     </div>
   
@@ -87,6 +100,7 @@
       <div class="day">
         <p>Friday</p>
       </div>
+      <div class="event"></div>
 
     </div>
   
@@ -94,6 +108,7 @@
       <div class="day">
         <p>Saturday</p>
       </div>
+      <div class="event"></div>
 
     </div>
   
@@ -101,11 +116,25 @@
       <div class="day">
         <p>Sunday</p>
       </div>
+      <div class="event"></div>
 
     </div>
   </div>
 
+    <div class="right-cont">
+        <div class="reminder-cont">
+            <div class="reminder">
+                <p>Reminder</p>
+            </div>
+        </div>
 
+        <div class="anno-cont">
+                <div class="anno">
+                    <p>Annoncment</p>
+                </div>
+        </div>
+    </div>
+</div>
 
 </body>
 
