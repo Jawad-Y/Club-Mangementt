@@ -38,6 +38,11 @@
     padding-right: 300px;
   }
 
+  .navlinks-club {
+    display: flex;
+    align-items: center;
+    gap : 20px;
+  }
 .logo{display: flex;}
 .logo img {border-radius: 50%;} /*  logo circular */
 

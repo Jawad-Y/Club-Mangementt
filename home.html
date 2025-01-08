@@ -6,6 +6,7 @@
   <title>Club</title>
  
  <link rel="stylesheet" href=".\top.css">
+ <link rel="stylesheet" href=".\club.css">
  <link href=".\home.css" rel="stylesheet">  
     
  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
@@ -37,8 +38,8 @@
     <!--NAVIGATION BAR  -->
     
 <div class="navlinks">
-   <a href="#">Home</a>
-   <a href="#">Clubs</a>
+   <a href=".\home.html">Home</a>
+   <a href=".\club.html">Clubs</a>
    <a href="#">Contacts</a>
    <a href="#">Inventory</a>
    <a href="#">profile</a>
@@ -56,7 +57,16 @@
 
 <div class="emptyspace"> <p></p></div>
 
-<div class="clubschedule"><div class="scheduale"><p>Schedule</p></div></div>
+<div class="clubschedule">
+  <div class="scheduale"><p>Schedule</p></div>
+  <div class="buttons-cont">
+    <div>
+      <button class="buttons">Add Contact</button>
+      <button class="buttons">View Clubs</button>
+      <button class="buttons">Add Event</button>
+    </div>
+  </div>
+</div>
     
 
 
@@ -111,14 +121,18 @@
       <div class="event"></div>
 
     </div>
-  
+    
+    <div class="add-3dots-sch">
+      <i class="fas fa-ellipsis-v"></i> 
+  </div>
+
     <div class="card">
       <div class="day">
         <p>Sunday</p>
       </div>
       <div class="event"></div>
-
     </div>
+    
   </div>
 
     <div class="right-cont">
@@ -126,12 +140,18 @@
             <div class="reminder">
                 <p>Reminder</p>
             </div>
+            <div class="add-3dots">
+              <i class="fas fa-ellipsis-v"></i> 
+          </div>
         </div>
 
         <div class="anno-cont">
                 <div class="anno">
                     <p>Annoncment</p>
                 </div>
+                <div class="add-3dots">
+                  <i class="fas fa-ellipsis-v"></i> 
+              </div>
         </div>
     </div>
 </div>
