@@ -68,6 +68,12 @@
 .clubs-cards
 {
     display:flex;
+
+    
+}
+.clubs-cards button
+{
+    display:flex;
     width: 200px;
     height: 260px;
     padding-top:20px;
@@ -80,5 +86,7 @@
     border: px solid black;
     background-color: var(--maincolor);
     border-radius:22px;
+    cursor: pointer;
+    border: none;
     
 }
