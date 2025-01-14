@@ -10,8 +10,9 @@
     width: 1450px;
     height: 60px;
     border-bottom: 5px solid var(--maincolor);
-    padding: 0;
+    padding-bottom: 30px;
     margin-left: 40px;
+    padding-top: 140px;
     
 }
 .addclub-cont
@@ -74,7 +75,7 @@
 .clubs-cards button
 {
     display:flex;
-    width: 200px;
+    width: 300px;
     height: 260px;
     padding-top:20px;
     justify-content: left;

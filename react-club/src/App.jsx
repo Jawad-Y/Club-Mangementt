@@ -26,7 +26,7 @@ function App() {
               </Route>
 
               <Route  exact path="/ClubDetails">
-                      <ClubDetails/>
+                      <ClubDetails ClubName="Music Club" ClassName="CLarient"/>
               </Route>
             </Switch>
         </Router>
