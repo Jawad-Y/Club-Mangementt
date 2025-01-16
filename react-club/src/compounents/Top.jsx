@@ -25,7 +25,7 @@ export default function Top() {
           <div className="navlinks">
             <Link to="/">Home</Link>
             <Link to="/ClubPage">Clubs</Link>
-            <Link to="#">Contacts</Link>
+            <Link to="/Contacts">Contacts</Link>
             <Link to="#">Inventory</Link>
             <Link to="#">Profile</Link>
           </div>
