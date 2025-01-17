@@ -14,7 +14,12 @@ export default function Contacts()
 
                 <div className="Buttons-cont">
                                 <div className="Search-bar">
-
+                                        
+                                            <div class="Inputcontainer">
+                                                <button><i class="fas fa-search"></i></button>
+                                                <input type="event" placeholder="Search"/>
+                                            </div>
+                                        
                                 </div>
                                 <div className="filter">
                                 
@@ -22,10 +27,10 @@ export default function Contacts()
                                     
                                 </div>
                                 <div className="NewContact">
-                                    <p>NewContact</p>
+                                    <p>New Contact</p>
                                 </div>
                                 <div className="Options">
-
+                                    <p>Options</p>
                                 </div>
                 </div>
             </div>

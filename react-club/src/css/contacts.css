@@ -18,7 +18,7 @@ body
     justify-content: space-between;
     width: 1445px;
     height: 40px;
-    sbackground-color: var(--background);
+    background-color: var(--background);
     
     padding: 0;
     margin-left: 40px;
@@ -33,56 +33,100 @@ body
     color:var(--maincolor);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+
 }
 .Buttons-cont
 {
     display: flex;
-    
-    width: 500px;
+    justify-content: flex-end;
+    width: 350px;
     padding-top: px;
     margin-right: 15px;
     font-size: large;
     color:var(--maincolor);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    gap: 30px;
+    gap:15px;
+    
 }
+
 
 .Search-bar
 {
-    
-    color:var(--maincolor);
-    border: 0.01px solid var(--maincolor) ;
-    padding: 7px;
-    display: flex;
-    border-radius: 4px;
-    align-content: center;
+  display: flex;
+  align-items: center;
+  gap:5px;
 }
+
+.Inputcontainer
+{
+  display: flex;
+  background-color: #d0f5ff;
+  color:#EF233C;
+  height: 30px;
+  gap : 3px;
+  border-radius: 50px;
+  border : none;
+}
+.Inputcontainer i
+{
+  display: flex;
+  margin-top : 6px;
+  margin-left : 6px;
+  cursor: pointer;
+  color:#EF233C;
+  height: 30px;
+  
+}
+.Inputcontainer input 
+{
+  width: 250px;
+  height: 30px;
+  
+  padding: 3px;
+  background-color:#d0f5ff;
+  border-radius: 50px;
+  border : 1px solid var(--maincolor);
+}
+.Search-bar button
+{
+  background-color: #d0f5ff;
+  color: #EF233C;
+  padding: 3px 4px;
+  border-radius: 50px;
+  border: none;
+  height:25px;
+}
+
+
 .filter
 {
     color:var(--maincolor);
-    border: 0.01px solid var(--maincolor) ;
+    border: 0.px solid var(--maincolor) ;
     padding: 7px;
+    margin-top:4.5px;
     display: flex;
     border-radius: 4px;
-    align-content: center;
-
+    cursor: pointer;
 }
 .NewContact
 {
-    color:var(--maincolor);
-    border: 0.01px solid var(--maincolor) ;
-    padding: 7px;
     display: flex;
-    border-radius: 4px;
     
+    color:var(--maincolor);
+    border: 0.px solid var(--maincolor) ;
+    padding: 7px;
+    flex-wrap: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
 }
 .Options
 {
     color:var(--maincolor);
-    border: 0.01px solid var(--maincolor) ;
+    border: 0px solid var(--maincolor) ;
     padding: 7px;
     display: flex;
     border-radius: 4px;
     align-content: center;
+    cursor: pointer;
 }
