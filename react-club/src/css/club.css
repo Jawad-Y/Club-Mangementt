@@ -111,3 +111,15 @@
     width: 100%; 
     height: 100%;
 }
+
+.no-added-clubs
+{
+    display:flex;
+    width:fit-content;
+    padding-left:15px;
+    font-size: 20px;
+    color:var(--maincolor);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}

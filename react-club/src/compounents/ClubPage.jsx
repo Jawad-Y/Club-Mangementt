@@ -40,7 +40,7 @@ export default function ClubPage() {
             </div>
           ))
         ) : (
-          <p>No clubs added yet.</p>
+          <div className="no-added-clubs"><p>No clubs added yet.</p></div>
         )}
       </div>
     </>
