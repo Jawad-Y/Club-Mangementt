@@ -34,7 +34,7 @@ export default function ClubPage() {
             <div key={index} className="clubs-cards">
               <Link to={`/ClubDetails`} className="clubs-cards-link">
                 <div className="club-cards">
-                  <p>{club}</p>
+                  <p>{club} Club</p>
                 </div>
               </Link>
             </div>

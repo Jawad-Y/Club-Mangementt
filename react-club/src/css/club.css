@@ -75,19 +75,13 @@
     padding: 5px;
     height:auto;
 }
-.clubs-cards
-{
-    display:flex;
-
-    
-}
 .clubs-cards 
 {
     display:flex;
     width: 300px;
     height: 260px;
     padding-top:20px;
-    justify-content: left;
+    justify-content: center;
     margin-left: 35px;
     margin-bottom: 35px;
     margin-top: 35px;
@@ -98,16 +92,17 @@
     border-radius:22px;
     cursor: pointer;
     border: none;
-    
+    align-content: center;
+
 }
 
 .clubs-cards p{
     height:100%;
-    padding-left:50px;
+    padding-left:0px;
     font-size: 20px;
     color:var(--third);
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     align-items: center;
     justify-content: center;
     letter-spacing: 3px;
@@ -118,6 +113,8 @@
     color: inherit;
     display: flex;
     width: 100%; 
+    justify-content: center;
+    align-content: center;
     height: 100%;
 }
 .clubs-cards-link:hover {
