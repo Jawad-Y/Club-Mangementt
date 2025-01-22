@@ -11,8 +11,8 @@
     padding:10px;
     border-radius:22px;
     font-size: 20px;
-    background-color:var(--maincolor) ;
-    color:var(--third);
+    color:var(--background) ;
+    background-color:var(--second);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     cursor: pointer;
@@ -54,7 +54,7 @@
 {
     display: flex;
     justify-content: space-between;
-    
+    background-color: none;
     margin-top:60px ;
 }
 .Add-Class button
@@ -85,7 +85,7 @@
     margin-top:60px ;
     width:725px;
     color:var(--maincolor);
-    background-color: var(--background);
+    background-color: var(--third);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     border: none;
@@ -102,6 +102,7 @@
     border-radius: 22px;
     background-color: var(--background)
     ;
+    
     width: 1450px;
     height:auto;
 }

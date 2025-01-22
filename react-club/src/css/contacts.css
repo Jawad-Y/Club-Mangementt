@@ -1,21 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  background-color: var(--third);
-  margin: 0;
-  padding: 0;
-}
 
 .name-buttons-cont {
   display: flex;
   justify-content: space-between;
   width: 1445px;
   height: 40px;
-  background-color: var(--background);
+  background-color: var(--third);
 
   padding: 0;
   margin-left: 40px;
@@ -36,7 +26,7 @@ body {
   padding-top: 0px;
   margin-right: 15px;
   font-size: large;
-  color: var(--maincolor);
+  color: var(--background);
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   gap: 15px;
@@ -113,8 +103,7 @@ body {
   padding: 7px;
   border-radius: 4px;
   cursor: pointer;
-  background-color: var(--background);
-  gap: 4px;
+  background-color: var(--third);
    font-size: large;
 font-family: "Montserrat", sans-serif;
   font-weight: 700;
