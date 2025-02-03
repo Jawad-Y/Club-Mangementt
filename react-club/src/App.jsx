@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
+
 
 import './App.css'
 import Top from './compounents/Top.jsx';

@@ -1,4 +1,4 @@
-import '../css/top.css'
+
 import {Link} from 'react-router-dom';
 import userIcon from "../Resource/user.svg";
 import logoIcon from "../Resource/logo.png";
