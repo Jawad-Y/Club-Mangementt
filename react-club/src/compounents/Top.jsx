@@ -1,5 +1,7 @@
 import '../css/top.css'
 import {Link} from 'react-router-dom';
+import userIcon from "../Resource/user.svg";
+import logoIcon from "../Resource/logo.png";
 
 export default function Top() {
   return (
@@ -8,7 +10,7 @@ export default function Top() {
         <nav className="navbar">
           {/* LOGO */}
           <div className="logo">
-            <img src="../Resource/1.jpg" alt="logo" width="50" height="50" />
+            <img src={logoIcon} alt="logo" width="70" height="50" />
           </div>
 
           {/* Search Bar */}
@@ -36,7 +38,7 @@ export default function Top() {
               <p>Jawad</p>
             </div>
             <Link to="#">
-              <img src="../Resource/user.svg" alt="User Icon" width="25" height="25" />
+              <img src={userIcon} alt="User Icon" width="25" height="25" />
             </Link>
           </div>
         </nav>
