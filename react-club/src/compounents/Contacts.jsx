@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilter } from "@fortawesome/free-solid-svg-icons";
-import { addUser } from "../assets/index";
+import { addUser } from "../../assets/index";
 
 const ClubClasses = {
   Music: "ClubElement Music",
